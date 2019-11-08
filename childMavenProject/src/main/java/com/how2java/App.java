@@ -14,6 +14,7 @@ public class App
     {
         String dateStr = "2012-12-12 12:12:12";
         Date date = DateUtil.parse(dateStr);
+
         System.out.println(date);
     }
 }
